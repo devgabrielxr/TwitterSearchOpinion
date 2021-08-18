@@ -2,10 +2,10 @@ from leia import SentimentIntensityAnalyzer
 import tweepy
 import matplotlib.pyplot as plt
 
-key = 'yxawZNg5Ggb46fMqRHw8bbDNU'
-secret = 'hkM3wNZ5n6duudDBspZHjKp7X3OZMNIsWLZr785WszTKTEN37i'
-token = '2965075335-oBNw3TJ5psoWEGBIslzBGd6RbZsEvfQIwZMO0ot'
-token_secret = 'C5HuoaLaEaKW7oMSw8rS6Gx7WLCBmCG1eISJWjMQfEiCd'
+key = 'xxxxxxxxxx'
+secret = 'xxxxxxxxxx'
+token = 'xxxxxxxxxx'
+token_secret = 'xxxxxxxxxx'
 
 autenticacao = tweepy.OAuthHandler(key, secret)
 autenticacao.set_access_token(token, token_secret)     
